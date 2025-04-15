@@ -1,0 +1,30 @@
+<!-- create a js class to create a complex number cteate a constructor to set the ral and complex part -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        class complex{
+            constructor(real, imaginary){
+                this.real = real
+                this.imaginary = imaginary
+            }
+            add(num){
+            this.real = this.real + num.real
+            this.imaginary = this.imaginary + num.imaginary
+
+            }
+        }
+        let a = new complex(1, 3)
+        let b = new complex(2, 4)
+        // console.log(a.add(b));
+        a.add(b)
+        console.log(a.real, a.imaginary);
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+let name = "shivam";
+console.log(name.length);
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
+console.log(name.slice(2,4));
+console.log(name.slice(2));
+console.log(name.replace("sh","dh"));
+let n1 = "ashita";
+let n2 = "shivam";
+console.log(n1.concat(" is a friend of ", n2));
+console.log(n1.concat(" is a friend of ", n2 ," ok"));
+let n3 = "  isha   ";
+console.log(n3.trim());
+console.log(n3);
+let fr = "samantha" + "rashmika";
+console.log(fr[0]);
+console.log(fr[1]);
+console.log(fr[2]);
+console.log(fr[3]);
+console.log(fr[4]);
+console.log(fr[5]);
+console.log(fr[6]);
+console.log(fr[7]);
+// fr[4] = "o" // this is not possible
+console.log(fr);

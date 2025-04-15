@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hello shivam
+
+    <script>
+        document.write("hello shivam")
+        let a = setTimeout(function(){
+            alert("how are you ?(settimeout)")
+        }, 5000)// 5000 = 5 seconds
+       // clearTimeout(a)//clearing timeout "delete alert "
+       let b = prompt("do you want to run the settimout ?")
+       if('n' == b){
+        clearTimeout(a)
+       }
+    </script>
+    
+</body>
+</html>

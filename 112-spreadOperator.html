@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+          let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+          let {a, b} = {a:10, b:20}
+          console.log(a, b);
+          let arr1 = [1, 2, 3]
+          let obj1 = {...arr1}
+          console.log(obj1);
+          function sum(v1,v2, v3){
+            return v1 + v2 + v3
+          }
+          console.log(sum(...arr1));
+          
+
+          let obj2 ={
+            name:"jack",
+            company:"jack enterprises ltd",
+            address:"UAE"
+          }
+          console.log(obj2)
+          console.log({...obj2, name: "shivam", company: "shivam enterprises ltd", address:"INDIA"})
+    </script>
+</body>
+</html>

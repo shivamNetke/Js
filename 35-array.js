@@ -1,0 +1,10 @@
+let marks = [2,3,4,5, false , "not given"];
+console.log(marks);
+console.log(marks[1]);
+console.log(marks[2]);
+console.log(marks[3]);
+console.log("length of this array is", marks.length);
+marks[6]= 23;
+console.log(marks[6]);
+marks[0] = 99;
+console.log(typeof marks);

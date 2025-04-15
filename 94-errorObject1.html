@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        try{
+            let age = prompt("enter your age")
+            age = Number.parseInt(age)
+            if(age>150){
+                throw new ReferenceError("this is probably not true")
+            }
+        }catch(error){
+            console.log(error.name);
+            console.log(error.message);
+            console.log(error.stack);
+        }
+        console.log("the script is still running3");
+    </script>
+</body>
+</html>

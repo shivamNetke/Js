@@ -1,0 +1,34 @@
+<!-- create a website which is capable of storing bookmarks of your favourite website using href -->
+<!-- using event listner -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="google">google</button>
+    <button id="facebook">facebook</button>
+    <button id="twitter">twitter</button>
+
+    
+    <script>
+        document.getElementById("google").addEventListener("click", function(){
+            window.location = "https://www.google.com";
+            win.focus();
+        })
+      
+        document.getElementById("facebook").addEventListener("click", function(){
+            window.location = "https://www.facebook.com";
+            win.focus();
+        })
+
+        document.getElementById("twitter").addEventListener("click", function(){
+            window.location = "https://www.twitter.com";
+            win.focus();
+        })
+
+    </script>
+</body>
+</html>

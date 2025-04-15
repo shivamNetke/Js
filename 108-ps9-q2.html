@@ -1,0 +1,35 @@
+<!-- create an a class student from a class human overide a method and see changes -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        class human{
+            constructor(name, favfood){
+                this.name = name
+                this.favfood = favfood
+            }
+            walk(){
+                console.log(this.name + " human is walking");
+            }
+        }
+
+
+        class student extends human{
+            walk(){
+                console.log(this.name + " student is walking");
+            }
+        }
+        let o = new student("shivam", "kabab")
+        o.walk()
+
+        console.log(o instanceof human)
+    </script>
+</body>
+</html>

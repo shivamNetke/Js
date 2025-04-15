@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // function init(){
+        //     var name = "mozilla"
+        //     function displayname(){
+        //         console.log(name);
+
+        //     }
+        //     name = "shivam"
+        //     return displayname
+        // }
+        // let c = init()
+        // c()
+
+function returnfunc(){
+
+
+        const x = ()=>{
+            let a = 1
+            console.log(a);
+            const y = ()=>{
+                // let a = 2
+                console.log(a);
+                const z = ()=>{
+                    // let a = 3
+                    console.log(a);
+                }
+                z()
+            }
+            a = 999
+            y()
+        }
+        x()
+        return x
+    }
+    let a = returnfunc()
+    a
+    </script>
+</body>
+</html>

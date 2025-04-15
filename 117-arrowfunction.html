@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        const x = {
+            name: "shivam",
+            role: "full stack developer",
+            experience: "5 years",
+
+            show: function(){
+                let that = this
+                console.log(this);
+                setTimeout(() => {
+                    
+                    console.log(`the name is ${this.name}\nthe role is ${this.role}\nthe experience is ${this.experience}`)
+                }, 2000);
+            }
+        }
+        x.show()
+    </script>
+</body>
+</html>
