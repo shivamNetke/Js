@@ -3,7 +3,7 @@
 let marks = {
     shivam: 90,
     ashita:9,
-    lovish:56,
+    lovish:56,  
     monika:4
 }
 for(let i =0; i<Object.keys(marks).length;i++){
